@@ -41,13 +41,13 @@ const Sidebar = () => {
           <nav>
             <ul className="space-y-4">
               <li className="text-sm font-montserrat text-light-gray hover:text-highlight-yellow transition">
-                <Link to="/" className="flex items-center space-x-2">
+                <Link to="/" className="flex items-center pb-2 pl-5 space-x-2">
                   <FiHome className="h-5 w-5" />
                   <span>Dashboard</span>
                 </Link>
               </li>
 
-              <li className="text-sm font-montserrat text-light-gray hover:text-highlight-yellow transition">
+              <li className="text-sm pl-5 font-montserrat text-light-gray hover:text-highlight-yellow transition">
                 <span className="font-bold">PAGES</span>
               </li>
               <li className="text-sm font-montserrat text-light-gray hover:text-highlight-yellow transition ml-4">
@@ -69,7 +69,7 @@ const Sidebar = () => {
                 </Link>
               </li>
 
-              <li className="text-sm font-montserrat text-light-gray hover:text-highlight-yellow transition">
+              <li className="text-sm pl-5 font-montserrat text-light-gray hover:text-highlight-yellow transition">
                 <span className="font-bold">APPS</span>
               </li>
               <li className="text-sm font-montserrat text-light-gray hover:text-highlight-yellow transition ml-4">
