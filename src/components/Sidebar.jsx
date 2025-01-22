@@ -32,8 +32,8 @@ const Sidebar = () => {
 
         {/* Logo and Company Name */}
         <div className="flex flex-col items-center p-4 space-y-2">
-          <img src={logo} alt="Company Logo" className="h-10 w-10 object-contain" />
-          {isOpen && <span className="font-montserrat text-white">Company Name</span>}
+          <img src={logo} alt="Sharp Products" className="h-10 w-10 object-contain" />
+          {isOpen && <span className="font-montserrat text-white">Sharp Products</span>}
         </div>
 
         {/* Navigation Links */}
