@@ -1,20 +1,13 @@
-import Sidebar from "./Sidebar.jsx"
-import Navbar  from "./Navbar.jsx"
-export const Dashboard = () => {
+
+ const Dashboard = () => {
   return (
     <div className="flex h-screen">
-      {/* Sidebar */}
-      <Sidebar />
-
-      {/* Main Content */}
-      <div className="flex-1 flex flex-col">
-        {/* Navbar */}
-        <Navbar />
+    
 
         {/* Content Section */}
         <div className="p-6 bg-light-gray flex-1">
           {/* Page Title */}
-          <h2 className="text-3xl font-montserrat text-dark-gray mb-6">Overview</h2>
+          <h2 className="text-3xl font-montserrat text-dark-gray mb-6">Overview</h2> 
 
           {/* Stats Cards */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -47,6 +40,7 @@ export const Dashboard = () => {
           </div>
         </div>
       </div>
-    </div>
+    
   );
 };
+export default Dashboard;
