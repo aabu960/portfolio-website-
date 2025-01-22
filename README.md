@@ -1,14 +1,50 @@
-# React + Vite
+# Dashboard MERN
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional and responsive admin dashboard built with the MERN stack, Tailwind CSS, and Chart.js. This dashboard is designed for Customer Relationship Management (CRM) with features like customer and product management, interactive charts, and responsive UI.
 
-Currently, two official plugins are available:
+## Tech Stack
+- **Frontend:** React, Tailwind CSS, Vite
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Libraries:** Chart.js, Axios
+  
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/aabu960/dashboard_mern.git
+   cd dashboard_mern
+
+1. Install frontend dependencies:
+cd client
+npm install
+
+2. Install backend dependencies:
+cd ../server
+npm install
+
+3. Start the development servers:
+cd client
+npm run dev
+
+   BACKEND :
+   cd ../server
+npm run dev
 
 
-## Screenshots
+4. 
+#### **f. Usage**
+Explain how to use the dashboard and navigate its features.
 
-### Dashboard View
-![Dashboard View](./assets/dashboard-view.jpg)
+```markdown
+## Usage
+- Open the app in your browser.
+- Use the sidebar to navigate between Dashboard, Pages, and Apps.
+- Explore the charts for real-time data insights.
+- Manage customers and products using search, filter, and pagination.
+
+
+
+
+
+
