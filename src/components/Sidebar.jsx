@@ -73,13 +73,13 @@ const Sidebar = () => {
                 <span className="font-bold">APPS</span>
               </li>
               <li className="text-sm font-montserrat text-light-gray hover:text-highlight-yellow transition ml-4">
-                <Link to="/kanban" className="flex items-center space-x-2">
+                <Link to="/kanbanboard" className="flex items-center space-x-2">
                   <FiBox className="h-5 w-5" />
                   <span>Kanban</span>
                 </Link>
               </li>
               <li className="text-sm font-montserrat text-light-gray hover:text-highlight-yellow transition ml-4">
-                <Link to="/calendar" className="flex items-center space-x-2">
+                <Link to="/calendarapp" className="flex items-center space-x-2">
                   <FiCalendar className="h-5 w-5" />
                   <span>Calendar</span>
                 </Link>
